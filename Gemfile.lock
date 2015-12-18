@@ -21,9 +21,8 @@ GEM
     json (1.8.2)
     minitest (5.5.1)
     pg (0.18.1)
-    puma (2.11.0)
-      rack (>= 1.1, < 2.0)
-    rack (1.6.0)
+    puma (2.15.3)
+    rack (1.6.4)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
@@ -58,10 +57,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord
   pg
   puma
-  rack
   rack-test
   rake
   rspec
