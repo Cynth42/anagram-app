@@ -1,3 +1,6 @@
+<% if @error.present? %>
+  <p class='error'><%= "#{@error}" %></p>
+<% end %>
 <h1>Anagrams</h1>
  
 <form action="/" method="post" class="form">
