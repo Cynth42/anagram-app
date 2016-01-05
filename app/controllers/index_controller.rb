@@ -1,23 +1,18 @@
 def three_letters?(input)
-    if input.length <= 3
-        true
+    if input.length > 3
+        false
     else
-       false
+       true
     end
-end
-
-def distinct_letters?(input)
-    letter_array = input.chars
-    unique_letters = input.uniq
 end
 
 def distinct_letters?(input)
     letter_array = input.chars
     unique_letters = letter_array.uniq
     if unique_letters.length < letter_array.length
-        true
+        false
     else
-       false
+       true
     end
 end
 
