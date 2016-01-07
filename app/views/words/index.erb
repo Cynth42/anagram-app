@@ -2,12 +2,14 @@
   <table class="table table-striped">
     <thead>
       <th>Text</th>
-      <th>Letters</th>    
+      <th>Letters</th> 
+      <th>Edit</th>
+      <th>Delete</th>    
     </thead>
     <tbody>
       <% @words.each do |word| %>
         <tr>
-          <td><%= "#{word.text}" %>
+          <td><a href="<%= "/words/#{word.id}" %>"><%= "#{word.text}" %></a> 
             </td>
           <td><%= "#{word.letters}" %>
             </td>        
