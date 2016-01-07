@@ -7,9 +7,9 @@
     <tbody>
       <% @words.each do |word| %>
         <tr>
-          <td><a href="<%= "/words/#{word.id}" %>"><%= "#{word.text}" %>
+          <td><%= "#{word.text}" %>
             </td>
-          <td><%= "#{word.letters}" %> </a>
+          <td><%= "#{word.letters}" %>
             </td>        
         </tr>
       <% end %>

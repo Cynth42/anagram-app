@@ -1,0 +1,18 @@
+<form action="/" method="post" class="form">
+	<div class="header">
+		<h1>Welcome To Our</h1>
+		<h1 class="title">Anagram Generator</h1>
+	</div>
+	<% if @error.present? %>
+		<p class='error'><%= "#{@error}" %></p>
+	<% end %>
+
+	<div class="division"></div>
+
+	<div class="inputs">
+		<label for="word">Enter Words ONLY Please!</label>
+		<input type="text" name="word" /></br>
+		<input type="submit" class="button" value="Submit To See Your Anagrams" />
+	</div>
+</form>
+
