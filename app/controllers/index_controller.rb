@@ -1,8 +1,8 @@
-def three_letters(input)
-    if input.length > 3
-        raise Exception.new("Word must be less than or equal to 3 characters!")
-    end
-end
+#def three_letters(input)
+#    if input.length > 3
+#        raise Exception.new("Word must be less than or equal to 3 characters!")
+#    end
+#end
 
 def distinct_letters(input)
     letter_array = input.chars
@@ -13,7 +13,7 @@ def distinct_letters(input)
 end
 
 def valid_input(input)
-    three_letters(input)
+    # three_letters(input)
     distinct_letters(input)
 end
     
